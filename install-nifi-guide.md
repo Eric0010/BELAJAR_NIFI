@@ -54,7 +54,13 @@ Cek status:
 Jika berhasil, akan muncul:
 
 ```
-NiFi is currently running
+root@kafka1:/home/nifi/nifi-2.3.0# ./bin/nifi.sh status
+
+JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+NIFI_HOME=/home/nifi/nifi-2.3.0
+
+2025-04-21 07:31:15,066 INFO [main] org.apache.nifi.bootstrap.Command Application Process [4204] Command Status [SUCCESS] HTTP 200
+2025-04-21 07:31:15,071 INFO [main] org.apache.nifi.bootstrap.Command Status: UP
 ```
 
 ## 5. Akses Antarmuka Web
