@@ -12,7 +12,7 @@ Dokumen ini menjelaskan latihan dasar penggunaan Apache NiFi untuk melakukan rou
 
 ## Arsitektur Flow
 
-![image](https://github.com/user-attachments/assets/9b3e5460-38f6-47c5-8564-defe585bcb60)
+![image](https://github.com/user-attachments/assets/3480d94b-ab8b-4165-83cd-08b334e2a76f)
 
 
 ---
@@ -51,7 +51,7 @@ Dokumen ini menjelaskan latihan dasar penggunaan Apache NiFi untuk melakukan rou
   - Name: `is_new`
   - Value: `${status:equals('new')}`
 
-### 4. Tambahkan 2 `LogAttribute` Processor
+### 4. Tambahkan Processor `LogAttribute` (2 buah)
 
 - `LogAttribute (is_new)` untuk relationship `is_new`
 - `LogAttribute (unmatched)` untuk relationship `unmatched`
