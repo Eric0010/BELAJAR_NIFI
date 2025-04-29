@@ -1,4 +1,4 @@
-# Apache NiFi - Minggu 2 Hari 1: FlowFile dan Attributes
+# Apache NiFi - FlowFile dan Attributes
 
 Dokumen ini berisi langkah-langkah lengkap latihan Apache NiFi untuk memahami FlowFile dan menggunakan processor UpdateAttribute.
 
