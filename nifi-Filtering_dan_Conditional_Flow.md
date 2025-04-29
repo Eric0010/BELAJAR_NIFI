@@ -1,4 +1,4 @@
-# Apache NiFi - Minggu 2 Hari 3: Filtering dan Conditional Flow
+# Apache NiFi - Filtering dan Conditional Flow
 
 Dokumen ini berisi langkah-langkah lengkap latihan Apache NiFi untuk membuat routing berdasarkan multiple attributes menggunakan RouteOnAttribute.
 
