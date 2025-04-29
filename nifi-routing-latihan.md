@@ -12,11 +12,8 @@ Dokumen ini menjelaskan latihan dasar penggunaan Apache NiFi untuk melakukan rou
 
 ## Arsitektur Flow
 
-```
-[GenerateFlowFile (new)] ─┬─> [UpdateAttribute (status = new)] ─┬─> [RouteOnAttribute]
-                          │                                      ├── is_new ──> [LogAttribute (is_new)]
-[GenerateFlowFile (old)] ─┘                                      └── unmatched ──> [LogAttribute (unmatched)]
-```
+![image](https://github.com/user-attachments/assets/9b3e5460-38f6-47c5-8564-defe585bcb60)
+
 
 ---
 
