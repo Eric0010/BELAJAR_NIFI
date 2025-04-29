@@ -87,16 +87,17 @@ Dokumen ini berisi langkah-langkah lengkap latihan Apache NiFi untuk membuat rou
 
 ## Visual Diagram Flow
 
-```
-[GenerateFlowFile (new)] → [UpdateAttribute (new)]
-[GenerateFlowFile (processing)] → [UpdateAttribute (processing)]
-[GenerateFlowFile (completed)] → [UpdateAttribute (completed)]
-                                 ↓
-                           [RouteOnAttribute]
-                             ├── is_new → [LogAttribute (new)]
-                             ├── is_processing → [LogAttribute (processing)]
-                             └── is_completed → [LogAttribute (completed)]
-```
+![image](https://github.com/user-attachments/assets/0588bee4-802e-49f4-bd13-6a8c53aa5c27)
+
+
+
+
+
+
+
+
+
+
 
 ## Checklist Hari 3
 
