@@ -18,3 +18,7 @@ var/ssl/private/
 
 
 etc/kafka/client.properties
+
+Hasil:
+
+![image](https://github.com/user-attachments/assets/6deca057-b101-4fa6-aebf-99c4b85c0f91)
