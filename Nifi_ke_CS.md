@@ -15,4 +15,6 @@ ssl
 
 tempat credential di node 1 = 10.100.13.219
 var/ssl/private/
+
+
 etc/kafka/client.properties
