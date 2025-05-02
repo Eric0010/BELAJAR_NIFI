@@ -38,7 +38,7 @@ Buka file `conf/nifi.properties` dan sesuaikan bagian berikut:
 
 ```properties
 # Web HTTPS
-nifi.web.https.host=kafka1
+nifi.web.https.host=0.0.0.0
 nifi.web.https.port=8443
 nifi.web.https.network.interface.default=
 nifi.web.https.application.protocols=h2 http/1.1
@@ -96,7 +96,7 @@ Pastikan tidak ada error di `logs/nifi-app.log`.
 
 ## 7. Verifikasi
 
-- Akses `https://kafka1:8443/nifi/`
+- Akses `https://<nama-ip>:8443/nifi/`
 - Login dengan:
   - **Username**: `admin`
   - **Password**: `P@ssw0rd`
